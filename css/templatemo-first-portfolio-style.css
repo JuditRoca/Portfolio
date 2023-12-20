@@ -206,8 +206,9 @@ strong {
   animation: spinner .9s linear infinite;
 }
 
-@-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);
+@-webkit-keyframes spinner {
+  to {
+    transform: rotate(360deg);
   }
 }
 
